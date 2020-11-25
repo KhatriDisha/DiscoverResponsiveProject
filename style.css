@@ -74,13 +74,18 @@ header nav .btnsearch:hover , header nav .btnlogin:hover{
 
 header nav label #btn, header nav label #cancel {
 	color: black;
-	font-size: 30px;
+	font-size: 19px;
 	float: right;
-	line-height: 80px;
-	margin-right: 40px;
+	/* line-height: 80px; */
+	margin-right: 20px;
 	cursor: pointer;
 	display: none;
+	margin-top: 20px;
 
+}
+
+header nav label #btn h5, header nav label #cancel h5 {
+	margin-left: -15px;
 }
 
 header nav #check {
@@ -362,6 +367,11 @@ div ul li i{
 	.give {
 		background-color: #0a0347;
 		height: 120px;
+	}
+	
+	.arrow-design1 {
+		display: flex;
+		margin-left: 15px;
 	}
 }
 
